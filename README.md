@@ -1,6 +1,6 @@
-# Renamer
+# MyMaterial Rename Tool
 
-**Renamer** is a bulk file rename tool built with Python and [PyQt5](https://www.riverbankcomputing.com/static/Docs/PyQt5/index.html).
+**MyMaterial Rename Tool** is a custom rename tool built with Python and [PyQt5](https://www.riverbankcomputing.com/static/Docs/PyQt5/index.html). It features tags for the filename, for example.
 
 ## Running the Application
 
@@ -9,7 +9,7 @@ To run **MyMaterialRenamer**, you need to download the source code. Then open a 
 1. Create and activate a Python virtual environment.
 
 ```sh
-$ cd MyMaterial_Rename_Tool/
+$ cd MyMaterial_Rename_Tool_source_code/
 $ python3 -m venv ./venv
 $ source venv/bin/activate
 (venv) $
@@ -24,7 +24,7 @@ $ source venv/bin/activate
 3. Run the application.
 
 ```sh
-(venv) $ python3 renamer.py
+(venv) $ python3 MyMaterialRenamer.py
 ```
 
 **Note:** This application was coded and tested with Python 3.8.10 and PyQt 5.15.2.
